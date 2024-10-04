@@ -4,9 +4,10 @@ import java.io.Serializable;
 import java.util.Objects;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection="user") // podee deixar so @Document
+@Document(collection="user") // pode deixar so @Document
 public class User implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
